@@ -1,11 +1,6 @@
-// console.log("hello world");
-// console.log("My name is divyansh tamrakar")
+var btntranslate = document.querySelector("#btn-translate");
+btntranslate.addEventListener("click", click);
 
-// input 
-var userinput = prompt("Tell me your name ")
-
-//processing 
-var welcome  = "this script is " + userinput;
-
-// output 
-alert(welcome);
+function click(){
+    console.log("clicked");
+}
