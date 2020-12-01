@@ -1,16 +1,17 @@
 var btntranslate = document.querySelector("#btn-translate");
 var inputtxt =  document.querySelector("#input-txt");
-console.log(inputtxt)
+var outputtxt = document.querySelector("#output");
+console.log(outputtxt);
 btntranslate.addEventListener("click", click);
 
 function click(){
-    console.log("clicked");
-    if(inputtxt.value === "")
-    {
-        alert("you have to write something");
-    }
-    else
-    {
-        console.log("input ",inputtxt.value);
-    }
+
+    outputtxt.innerText = "sfsfsdfsd" + inputtxt.value  ;
+  
 }
+
+// live exericse no 4 lesson 4
+// "textarea"
+// ".btn-primary"
+// "input-btn"
+// "input[nam = 'translator' ]"
