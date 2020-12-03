@@ -2,6 +2,7 @@
 
 body {
     margin-inline-start: 0rem;
+    margin: 0rem;
     font-family: 'Nerko One', cursive;
 }
 
@@ -9,8 +10,8 @@ body {
     background-color: yellow;
     padding: 1rem 1rem 1rem 1rem;
     text-align: center;
-    border-radius: 1rem 1rem 0rem 0rem;
-    margin-left: 0.5rem;
+    border-radius: 1rem 0rem 1rem 0rem;
+    
 }
 
 textarea {
@@ -75,7 +76,7 @@ textarea {
     font-size: large;
     background-color: yellow;
     padding: 1rem 10rem 1rem 10rem;
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 0rem 0rem 0rem 0rem;
     border-radius: 1rem 0rem 1rem 0rem;
 }
 
