@@ -5,8 +5,8 @@ console.log(outputtxt);
 btntranslate.addEventListener("click", click);
 
 
-var serviceurl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
-// var serviceurl = "https://api.funtranslations.com/translate/minion.json";
+// var serviceurl = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var serviceurl = "https://api.funtranslations.com/translate/minion.json";
 
 
 function getTranslation(text) {
@@ -22,13 +22,15 @@ function errorHandler(error) {
 
 function click() {
 
-    inputtxt.value = ''
 
-     
+
+    outputtxt.innerText = "";
     fetch(getTranslation(inputtxt.value)).then(response => response.json()).then(json => {
         console.log(json);
         outputtxt.innerText = json.contents.translated;
     }).catch(errorHandler);
+
+
 
 }
 
