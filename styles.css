@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
 
 body {
     margin-inline-start: 0rem;
     margin: 0rem;
-    font-family: 'Nerko One', cursive;
+    /* font-family: 'Nerko One', cursive; */
+    font-family: 'Play', sans-serif;
     background-image: url(https://wallpapercave.com/wp/9DHXtKW.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,16 +22,18 @@ body {
 
 textarea {
     /* border-color: black; */
-    border-width: 0.15rem;
+    border-width: 0.1rem;
     display: block;
     margin-top: 2rem;
     margin-left: 3rem;
     width: 90%;
     height: 30vh;
-    text-decoration: solid;
+    /* text-decoration: solid; */
     font-size: large;
     background-color: transparent;
     color: white;
+    text-align: left;
+    
 
 
 }
@@ -59,7 +63,7 @@ textarea {
     font-size: x-large;
     background-color: blue;
     padding: 0.4rem;
-    width: 25%;
+    width: 27%;
     color: white;
     border-radius: 1rem 1rem 1rem 1rem;
 }
@@ -77,6 +81,7 @@ textarea {
     color: white;
     letter-spacing: 0.2rem;
     text-align: center;
+    font-size: xx-large;
 
 }
 
