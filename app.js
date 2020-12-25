@@ -38,4 +38,4 @@ function click() {
 // "textarea"
 // ".btn-primary"
 // "input-btn"
-// "input[nam = 'translator' ]"
+// "input[name = 'translator' ]"
